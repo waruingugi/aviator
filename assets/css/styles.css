@@ -199,6 +199,8 @@ select.form-select:focus {
 .pagination {
   /*--bs-pagination-bg: #f0f2f4;*/
   --bs-pagination-focus-box-shadow: none;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .page-link {
