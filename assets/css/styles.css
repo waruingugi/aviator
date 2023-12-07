@@ -168,7 +168,7 @@ select.form-select:focus {
 }
 
 #payouts-table {
-  max-height: 75vh;
+  max-height: 90vh;
   overflow-y: scroll;
 }
 
