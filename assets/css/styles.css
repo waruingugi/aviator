@@ -7,7 +7,7 @@ body {
   font-family: 'Playfair Display', serif;
   color: #3E4C5B;
   font-size: 1.30rem!important;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   padding-top: 0.25rem!important;
   padding-bottom: 0.5rem!important;
   width: 100%!important;
@@ -69,7 +69,7 @@ body {
 
 .scroll-column {
   padding: 0 0.5rem !important;
-  min-width: 45%;
+  min-width: 42%;
   display: inline-block;
   scroll-snap-align: center;
 }
@@ -162,13 +162,13 @@ select.form-select:focus {
   color: #ffab00 !important;
 }
 
-.bg-dangrer-payout {
+.bg-danger-payout {
   background-color: #ffe0db !important;
   color: #ff3e1d !important;
 }
 
 #payouts-table {
-  max-height: 90vh;
+  max-height: 75vh;
   overflow-y: scroll;
 }
 
@@ -212,5 +212,21 @@ select.form-select:focus {
   color: #fff;
   box-shadow: 0 0.125rem 0.25rem rgba(105,108,255,.4);
   border: 1px solid #5643cc !important;
+}
+
+.btn {
+  font-family: 'Playfair Display', serif;
+  color: #3E4C5B;
+  font-size: 1.30rem!important;
+  padding-top: 0.25rem!important;
+  padding-bottom: 0.5rem!important;
+  width: 100%!important;
+  border: 0 !important;
+  font-weight: 500;
+  transition-duration: 0s;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 

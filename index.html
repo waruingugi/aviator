@@ -14,6 +14,16 @@
 </head>
 
 <body>
+    <div class="modal fade" role="dialog" tabindex="-1" id="opt-in-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0 py-2"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body pt-0">
+                    <p class="fs-5">Get <span style="background-color: rgb(255, 242, 214);">14 Days </span><strong><span style="background-color: rgb(255, 242, 214);">FREE ACCESS</span></strong> to Betika, SportPesa, Odibets and Betgr8 when you join the Aviator Payouts WhatsApp group!</p><button class="btn btn-light active w-100 site-option-button" type="button"><i class="fab fa-whatsapp me-2"></i>Yes, Get 14 Days FREE Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav class="navbar navbar-light navbar-expand-md py-2">
         <div class="container">
             <div class="d-flex justify-content-center w-100"><img class="img-fluid border rounded border-0" src="assets/img/aviator-logo.svg" loading="lazy" width="70px"></div>
@@ -22,10 +32,10 @@
     <section>
         <div class="container">
             <div class="site-options-row bg-white scroll-container">
-                <div data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" class="scroll-column with-border-right" title="Coming Soon"><a class="btn btn-light disabled site-option-button" role="button" title="Coming soon">Sportpesa</a></div>
+                <div class="scroll-column with-border-right" title="Coming Soon"><a class="btn btn-light" role="button" title="Coming soon" data-bs-target="#opt-in-modal" data-bs-toggle="modal">Sportpesa</a></div>
                 <div class="scroll-column with-border-right" title="Coming Soon"><a class="btn btn-light active site-option-button" role="button">Betika</a></div>
-                <div data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" class="scroll-column with-border-right" title="Coming Soon"><a class="btn btn-light disabled site-option-button" role="button" title="Coming soon">Odibets</a></div>
-                <div data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" class="scroll-column" title="Coming Soon"><a class="btn btn-light disabled site-option-button" role="button" title="Coming Soon">Betgr8</a></div>
+                <div class="scroll-column with-border-right" title="Coming Soon"><a class="btn btn-light" role="button" title="Coming soon" data-bs-target="#opt-in-modal" data-bs-toggle="modal">Odibets</a></div>
+                <div class="scroll-column" title="Coming Soon"><a class="btn btn-light" role="button" title="Coming Soon" data-bs-target="#opt-in-modal" data-bs-toggle="modal">Betgr8</a></div>
             </div>
         </div>
     </section>
@@ -96,12 +106,12 @@
         <div class="container">
             <div class="card stats-chart my-3">
                 <div class="card-header bg-white">
-                    <h4 class="card-title text-heading">Payouts</h4>
+                    <h4 class="card-title text-heading">Betika Payouts</h4>
                     <div class="row justify-content-between my-2">
                         <div class="col-12 col-md-4 my-2"><select class="form-select">
                                 <option value="3 hours" selected="">Last 3 hours</option>
-                                <option value="Today">Today</option>
-                                <option value="Yesterday">Yesterday</option>
+                                <option value="6 hours">Last 6 hours</option>
+                                <option value="12 hours">Last 12 hours</option>
                             </select></div>
                         <div class="col-12 col-md-6 my-2">
                             <div class="d-flex justify-content-end"><select id="payouts-filter" class="form-select">
@@ -144,7 +154,7 @@
                                 </tr>
                                 <tr>
                                     <td>15:41:56</td>
-                                    <td><span class="payout-badge bg-dangrer-payout">200.31x</span></td>
+                                    <td><span class="payout-badge bg-danger-payout">200.31x</span></td>
                                 </tr>
                                 <tr>
                                     <td>15:41:48</td>
@@ -248,6 +258,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
